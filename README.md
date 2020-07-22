@@ -1,7 +1,7 @@
 # UIRemoteViewControllerService-Template
 A template for Theos to use UIRemoveViewController's services in tweaks.
 
-This template is based on pixelomer's research of UIRemoteViewControllers. You can read his research here: https://github.com/pixelomer/RemoteViewFun/.
+This template is based on pixelomer's research of UIRemoteViewControllers. I highly recommend you read his research first, before using this template, so you don't get confused. You can read his research here: https://github.com/pixelomer/RemoteViewFun/.
 
 # How to install this template?
 
