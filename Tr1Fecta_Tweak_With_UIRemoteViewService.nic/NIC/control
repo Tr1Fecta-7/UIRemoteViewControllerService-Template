@@ -1,0 +1,12 @@
+name "Tr1Fecta/Tweak_With_UIRemoteViewService"
+
+prompt APPPROJECTNAME "Project Name for Service"
+prompt APPPACKAGENAME "Package Name (Bundle ID) for Service"
+prompt CLASSPREFIX "Class name prefix for Service (two or more characters)" "XX"
+prompt FILTER "MobileSubstrate Bundle filter" "com.apple.springboard"
+
+
+constrain "control" to package
+
+constrain file "control" to package
+constrain "theos" to link_theos

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+killall @@APPPROJECTNAME@@ || true
+echo "Running uicache for service app..."
+uicache -p /Applications/@@APPPROJECTNAME@@.app/ -r || true
